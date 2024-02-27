@@ -1,0 +1,307 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+nav img{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+ul{
+    list-style: none;
+    padding: 10px;
+    margin-right: 90px;
+}
+
+li{
+    display: inline;
+    padding: 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+.intro {
+    background-image: url(/assets/gmbr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 200px; 
+}
+
+.welcome{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+.about{
+    font-size: 20px;
+    text-align: center;
+}
+
+.missionvision{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.mission{
+    margin-right: 80px;
+}
+.jdlmisi{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+.isimisi{
+    text-align: center;
+}
+.jdlvisi{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+.isivisi{
+    text-align: center;
+}
+
+.judulhq{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.headquarter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.kota{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle-image{
+    width: 200px;
+    height: 200px;
+    border : 2px solid black;
+    border-radius: 50%;
+}
+
+.lokasi{
+    font-size: 25px;
+}
+
+.judulmsg{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.msg{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.msginput{
+    display: flex;
+    flex-direction: column;
+}
+
+.msglabel{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+#msgform{
+    display: flex;
+    flex-direction: row;
+    /* font-size: 20px; */
+    padding-left: 100px;
+}
+
+input [type="text"],
+input[tyoe="datetime-local"]{
+    width: 100px;
+}
+
+label,input,button,textarea{
+    margin-bottom: 10px;
+}
+
+button{
+    width: 300px;
+}
+
+.right{
+    border: 2px solid black;
+    width: 500px;
+    height: 300px;
+}
+
+.right p{
+    margin-left: 10px;
+    font-weight: 650;
+    font-size: 15px;
+}
+
+.rightcontent{
+    display: flex;
+}
+
+footer{
+    padding-right: 70px;
+    text-align: right;
+    border: 2px solid black;
+}
+
+@media only screen and (max-width: 600px){
+    .navbar{
+        flex-direction: column;
+    }
+
+    nav img{
+        width: 50px;
+        height: 50px;
+        margin-right: 50px;
+    }
+
+    ul{
+        list-style: none;
+        padding: 10px;
+        margin-left: 90px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    li{
+        border-bottom: 2px solid black;
+        border
+    }
+
+    .welcome{
+        font-size: 30px;
+    }
+
+    .mission{
+        margin-left: 80px;
+    }
+
+    .about{
+        font-size: 17px;
+        text-align:center;
+    }
+
+    .jdlmisi{
+        font-size: 25px;
+    }
+
+    .jdlvisi{
+        font-size: 25px;
+    }
+
+    .isimisi{
+        font-size: 17px;
+    }
+
+    .isivisi{
+        font-size: 17px;
+    }
+
+    .circle-image{
+        width: 150px;
+        height: 150px;
+        border : 2px solid black;
+        border-radius: 50%;
+    }
+    
+    .lokasi{
+        font-size: 20px;
+    }
+
+    .judulhq{
+        font-size: 30px;
+    }
+    
+    .judulmsg{
+        font-size: 30px;
+        text-align: center;
+        font-weight: 500;
+    }
+    
+    .msg{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-bottom: 50px;
+        flex-wrap: wrap;
+    }
+    
+    .msginput{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .msglabel{
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+    }
+    
+    #msgform{
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+    }
+    
+    label,input,button,textarea{
+        margin-bottom: 10px;
+    }
+    
+    button{
+        width: 250px;
+    }
+    
+    .right{
+        border: 2px solid black;
+        width: 350px;
+        height: 250px;
+    }
+    
+    .right p{
+        margin-left: 10px;
+        font-weight: 650;
+        font-size: 15px;
+    }
+    
+    footer{
+        padding-left: 70px;
+        text-align: center;
+        border: 2px solid black;
+    }
+}

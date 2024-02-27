@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project RevoU</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/script.js" async></script>
+</head>
+<body>
+    <nav class="navbar">
+        <img src="/assets/revo.png.png" alt="logo">
+        <ul>
+            <li>Home</li>
+            <li><a href="/index.html">Our Profile</a></li>
+            <li>Portofolio</li>
+            <li>Message Us</li>
+        </ul>
+    </nav>
+
+    <div class="intro">
+        <p class="welcome">Hi <span id="username">Name</span>, Welcome To WatchGoods!</p>
+        <p class="about">WatcHGoods is home to the greatest collection of used luxury watches, <br> all certified as authentic and Collector Quality</p>
+        
+        <div class="missionvision">
+            <div class="mission">
+                <p class="jdlmisi">Our Mission</p>
+                <p  class="isimisi">To offer a collection of used luxury watches authenticated <br> according to Collector Quality standards</p>
+            </div>
+
+            <div class="vision">
+                <p class="jdlvisi">Our Vision</p>
+                <p  class="isivisi">Become the main destination for people who appreciate <br> and seek the finest collection of used luxury watches</p>
+            </div>
+        </div>
+    </div>
+
+    <p class="judulhq">Our Headquarters</p>
+
+    <div class="headquarter"> 
+        <div class="kota">
+            <div class="circle-image" style="background-image: url(/assets/WatcHGoods\ Indonesia.png);"></div>
+            <p class="lokasi">Jakarta</p>
+        </div>
+
+        <div class="kota">
+            <div class="circle-image" style="background-image: url(/assets/WatcHGoods\ Fukuoka\ Japan.png);"></div>
+            <p class="lokasi">Bandung</p>
+        </div>
+
+        <div class="kota">
+            <div class="circle-image" style="background-image: url(/assets/WatcHGoods\ Singapore.png);"></div>
+            <p class="lokasi">Surabaya</p>
+        </div>
+    </div>
+
+    <p class="judulmsg">Message Us</p>
+    <div class="msg">
+        <div class="left">
+            <form id="msgform">
+                <div class="msglabel">
+                    <label for="nama">Nama :</label>
+                    <label for="tgllahir">Tanggal Lahir :</label>
+                    <label for="gender">Jenis Kelamin :</label>
+                    <label for="pesan">Pesan :</label>
+                </div>
+                
+                <div class="msginput">
+                    <input placeholder="Nama" type="text" name="" id="nama">
+                    <input type="datetime-local" name="" id="tgllahir">
+                    <div class="genderinput">
+                        <input type="radio" name="gender" id="male" value="male"> Laki-Laki
+                        <input type="radio" name="gender" id="female" value="female"> Perempuan
+                    </div>           
+                    <textarea placeholder="Pesan" name="" id="psn" cols="30" rows="10"></textarea>
+                    <button type="button" onclick="validate()">Submit</button>
+                </div>
+                
+            </form>         
+        </div>
+
+        <div class="right">
+                <div class="rightcontent">
+                    <p>Current Time : </p>
+                    <p id="rightTime"</p>
+                </div>
+
+                <div class="rightcontent">
+                    <p>Nama : </p>
+                    <p id="rightNama"></p>
+                </div>
+
+                <div class="rightcontent">
+                    <p>Tanggal Lahir : </p>
+                    <p id="rightTgl"></p>
+                </div>
+
+                <div class="rightcontent">
+                    <p>Jenis Kelamin : </p>
+                    <p id="rightGender"></p>
+                </div>
+
+                <div class="rightcontent">
+                    <p>Pesan : </p>
+                    <p id="rightPesan"></p>
+                </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Created by Davin Antoni</p>
+    </footer>
+</body>
+</html>
