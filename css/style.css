@@ -37,7 +37,7 @@ li a{
 }
 
 .intro {
-    background-image: url(/assets/gmbr.png);
+    background-image: url(../assets/gmbr.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
